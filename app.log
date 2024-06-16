@@ -1,0 +1,562 @@
+2024-06-16 11:43:50,464 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:43:50,571 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:43:50,572 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:43:52,037 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:44:23,488 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:44:23,515 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:44:23,516 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:44:24,756 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:45:44,608 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:45:44,744 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:45:44,747 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:45:46,200 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:46:51,258 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:46:51,318 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:46:51,320 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:46:52,614 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:49:19,141 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:49:19,244 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:49:19,245 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:49:20,499 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:51:06,136 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:51:06,242 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:51:06,243 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:51:07,730 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:51:29,967 - ERROR - Google 3Speech Recognition could not understand audio
+2024-06-16 11:51:33,337 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:51:33,357 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:51:33,359 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:51:34,596 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:51:40,221 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 11:51:40,362 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 11:51:40,368 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 11:51:40,384 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 11:51:40,415 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 11:51:40,480 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1054400d0>
+2024-06-16 11:51:40,480 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103f69440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 11:51:40,508 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x105403f40>
+2024-06-16 11:51:40,508 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 11:51:40,508 - DEBUG - send_request_headers.complete
+2024-06-16 11:51:40,508 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 11:51:40,509 - DEBUG - send_request_body.complete
+2024-06-16 11:51:40,509 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 11:51:40,678 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 02:51:40 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_77ecf32cf73067e7bdd416214ac2e940'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=zODkwFvNIDK1.W7gZfv6unzTNYMODCaEgwGbt7seYmo-1718506300-1.0.1.1-c_cgrEpr0w.aDHrPn6CHAXnWZQllj_yWV8qFGPTUhcfXPDbNWJ2kowrPFTd5qLSlda0Ais4Ypz4QUw6sGuxNAA; path=/; expires=Sun, 16-Jun-24 03:21:40 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=7B2et7B8ruyafiakKhoifmChVbygxrCKnh7tvmio6.Y-1718506300724-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89477fda8ee96860-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 11:51:40,679 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 11:51:40,679 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 11:51:40,679 - DEBUG - receive_response_body.complete
+2024-06-16 11:51:40,679 - DEBUG - response_closed.started
+2024-06-16 11:51:40,679 - DEBUG - response_closed.complete
+2024-06-16 11:51:40,680 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 11:51:40,680 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 11:51:40,683 - DEBUG - Not retrying
+2024-06-16 11:51:40,683 - DEBUG - Re-raising status error
+2024-06-16 11:51:40,721 - DEBUG - close.started
+2024-06-16 11:51:40,721 - DEBUG - close.complete
+2024-06-16 11:53:10,593 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:53:10,710 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:53:10,711 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:53:12,009 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:53:18,433 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 11:53:18,565 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 11:53:18,572 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 11:53:18,591 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 11:53:18,623 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 11:53:18,734 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1036ac0d0>
+2024-06-16 11:53:18,735 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1021d5440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 11:53:18,758 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10366ff40>
+2024-06-16 11:53:18,759 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 11:53:18,759 - DEBUG - send_request_headers.complete
+2024-06-16 11:53:18,759 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 11:53:18,759 - DEBUG - send_request_body.complete
+2024-06-16 11:53:18,759 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 11:53:18,928 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 02:53:18 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_f962a24aa68303acb2dea755a31c5998'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=rzHZQKYlqDuNhT5IcFVyYUbN1nuuBZNvlBbm_OGjLJU-1718506398-1.0.1.1-SXrt1cV5JqQvC8PecQjJnWHpJ2EgGsyL2OyXeH3UGg8HhV6aH_MhCC3lvvkhzYcZLZg_86eMyD9QUICg7qKTgQ; path=/; expires=Sun, 16-Jun-24 03:23:18 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=15v53NThIw0ON0PkL4oQZ9xFT8RJRYpkVwR5Uvm26rk-1718506398974-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'894782409db1f64d-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 11:53:18,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 11:53:18,930 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 11:53:18,930 - DEBUG - receive_response_body.complete
+2024-06-16 11:53:18,930 - DEBUG - response_closed.started
+2024-06-16 11:53:18,930 - DEBUG - response_closed.complete
+2024-06-16 11:53:18,931 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 11:53:18,931 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 11:53:18,935 - DEBUG - Not retrying
+2024-06-16 11:53:18,935 - DEBUG - Re-raising status error
+2024-06-16 11:53:18,980 - DEBUG - close.started
+2024-06-16 11:53:18,980 - DEBUG - close.complete
+2024-06-16 11:55:54,356 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:55:54,459 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:55:54,460 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:55:55,707 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:56:04,572 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 11:56:04,754 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 11:56:04,764 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 11:56:04,786 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 11:56:04,849 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 11:56:04,886 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11827cd30>
+2024-06-16 11:56:04,886 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x118139240> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 11:56:04,911 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11827d5d0>
+2024-06-16 11:56:04,911 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 11:56:04,911 - DEBUG - send_request_headers.complete
+2024-06-16 11:56:04,911 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 11:56:04,911 - DEBUG - send_request_body.complete
+2024-06-16 11:56:04,911 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 11:56:05,572 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 02:56:05 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_b32d02f9079682ab695f8f0d326f9776'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=aI10RcgBxxTRcBdd7kwsaLF3dqoBhw2.OFJDC1Oh0EU-1718506565-1.0.1.1-m3r7rflQ4rEdGcwan5GwPzsUiRSpVjV4Jy5TAOGlhYaiAi_1Dxcn0dRD7PQnaefe3uBX5YNF5TJ5LPToUS.lPQ; path=/; expires=Sun, 16-Jun-24 03:26:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=iuIdGmlPqPdh7H0d9Na4QxypsGsAY_GWO5k7Xhgm0pc-1718506565395-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947864f1c0c6843-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 11:56:05,574 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 11:56:05,575 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 11:56:05,575 - DEBUG - receive_response_body.complete
+2024-06-16 11:56:05,575 - DEBUG - response_closed.started
+2024-06-16 11:56:05,575 - DEBUG - response_closed.complete
+2024-06-16 11:56:05,575 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 11:56:05,576 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 11:56:05,581 - DEBUG - Not retrying
+2024-06-16 11:56:05,581 - DEBUG - Re-raising status error
+2024-06-16 11:56:05,635 - DEBUG - close.started
+2024-06-16 11:56:05,635 - DEBUG - close.complete
+2024-06-16 11:56:40,565 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:56:40,678 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 11:56:40,679 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 11:56:41,981 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 11:56:49,145 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 11:56:49,309 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 11:56:49,310 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 11:56:49,340 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 11:56:49,391 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 11:56:49,427 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106ce0d30>
+2024-06-16 11:56:49,427 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x106b9d240> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 11:56:49,478 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106ce15d0>
+2024-06-16 11:56:49,478 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 11:56:49,479 - DEBUG - send_request_headers.complete
+2024-06-16 11:56:49,479 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 11:56:49,479 - DEBUG - send_request_body.complete
+2024-06-16 11:56:49,479 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 11:56:49,673 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 02:56:49 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_d67bc89a08482e26a1784913f7e0d444'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=aKL8zaY.bUikYUmZxBaiEJY6ddC6QCSmwIv4XARHzEY-1718506609-1.0.1.1-dic1C2ZSiq.z8C9lUguk1wPcCcn5KEtMMytdSyhd_BIyf1dwLVEJtQmePtE5fJERqAQL5AWcEW3W_oza6luMLg; path=/; expires=Sun, 16-Jun-24 03:26:49 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=ug2CyoQKASo2ZpiXxv.JBcCH3fgUrQ8DHqkBHvUxa1c-1718506609694-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89478765987b25e4-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 11:56:49,674 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 11:56:49,674 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 11:56:49,674 - DEBUG - receive_response_body.complete
+2024-06-16 11:56:49,674 - DEBUG - response_closed.started
+2024-06-16 11:56:49,674 - DEBUG - response_closed.complete
+2024-06-16 11:56:49,675 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 11:56:49,675 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 11:56:49,679 - DEBUG - Not retrying
+2024-06-16 11:56:49,679 - DEBUG - Re-raising status error
+2024-06-16 11:56:49,740 - DEBUG - close.started
+2024-06-16 11:56:49,740 - DEBUG - close.complete
+2024-06-16 12:00:43,413 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:00:43,523 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:00:43,538 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:00:44,877 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:00:52,809 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:00:52,950 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 12:00:52,951 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 12:00:52,962 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:00:52,998 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:00:53,034 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107230d30>
+2024-06-16 12:00:53,034 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1070ed240> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:00:53,054 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1072315d0>
+2024-06-16 12:00:53,054 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:00:53,054 - DEBUG - send_request_headers.complete
+2024-06-16 12:00:53,054 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:00:53,054 - DEBUG - send_request_body.complete
+2024-06-16 12:00:53,054 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:00:53,729 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 03:00:53 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_a69acfd809e3b948758f0ccb59bd6a45'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=G_gdGgqsDp_fsfFJjCwHTpjHitmb9LTUtzvpud0oQBQ-1718506853-1.0.1.1-FEvXHW4.LlnjzQM6VPyQreNL.TWf.hy35JrpLoFscoVBPE_LaFZmu2iJr.18yfepOJns7ZelqZvcBIFkrWVuEg; path=/; expires=Sun, 16-Jun-24 03:30:53 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=JkC8w9M1eySvWVgeiS0orazq6K8gJqu5wwqGTPfUbEc-1718506853571-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89478d57fac9e370-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:00:53,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 12:00:53,731 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:00:53,731 - DEBUG - receive_response_body.complete
+2024-06-16 12:00:53,731 - DEBUG - response_closed.started
+2024-06-16 12:00:53,731 - DEBUG - response_closed.complete
+2024-06-16 12:00:53,732 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 12:00:53,732 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 12:00:53,735 - DEBUG - Not retrying
+2024-06-16 12:00:53,735 - DEBUG - Re-raising status error
+2024-06-16 12:00:53,815 - DEBUG - close.started
+2024-06-16 12:00:53,815 - DEBUG - close.complete
+2024-06-16 12:02:13,538 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:02:13,559 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:02:13,561 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:02:14,936 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:02:20,014 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:02:20,148 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 12:02:20,158 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 12:02:20,181 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:02:20,212 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:02:20,294 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x104bf00d0>
+2024-06-16 12:02:20,295 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x103719440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:02:20,314 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x104bb3f40>
+2024-06-16 12:02:20,314 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:02:20,314 - DEBUG - send_request_headers.complete
+2024-06-16 12:02:20,314 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:02:20,315 - DEBUG - send_request_body.complete
+2024-06-16 12:02:20,315 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:02:20,476 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 03:02:20 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_46252f39045d9fa4fbaf3c58a088dbec'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=U04u36WYXZwMyfaZ_pba1jN54zKhN62WFHokRv4mb3Y-1718506940-1.0.1.1-d85PTNWKKqt5FKA2MyZ2KeogYuwdbXEqsQFIqQOCS4vnVlxkuVGTZh_hyFVucXxePuG8BmEI72JuUeGFMU7Z5g; path=/; expires=Sun, 16-Jun-24 03:32:20 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=OlJ5BhjI37S51HXNuxlIihP3cTyX8kwDh88JJOdUbr0-1718506940527-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89478f79587a268d-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:02:20,478 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 12:02:20,479 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:02:20,479 - DEBUG - receive_response_body.complete
+2024-06-16 12:02:20,479 - DEBUG - response_closed.started
+2024-06-16 12:02:20,479 - DEBUG - response_closed.complete
+2024-06-16 12:02:20,479 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 12:02:20,479 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 12:02:20,483 - DEBUG - Not retrying
+2024-06-16 12:02:20,483 - DEBUG - Re-raising status error
+2024-06-16 12:02:20,555 - DEBUG - close.started
+2024-06-16 12:02:20,555 - DEBUG - close.complete
+2024-06-16 12:04:43,971 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:04:44,081 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:04:44,082 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:04:45,461 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:04:51,265 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:04:51,399 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 12:04:51,404 - DEBUG - load_verify_locations cafile='/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 12:04:51,415 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:04:51,443 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:04:51,475 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1243a40d0>
+2024-06-16 12:04:51,475 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x106595440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:04:51,493 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x124367f40>
+2024-06-16 12:04:51,493 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:04:51,493 - DEBUG - send_request_headers.complete
+2024-06-16 12:04:51,493 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:04:51,493 - DEBUG - send_request_body.complete
+2024-06-16 12:04:51,493 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:04:51,695 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 16 Jun 2024 03:04:51 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_365e409fbc9cb7fbbd5757112e16aca4'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=cCmkXyFnLS4i5EmPBMNnvjZAT2AXmbrMvtzpjcuvjn0-1718507091-1.0.1.1-oSV7rc12GUSQndweV2DWI7wdsZFlrrmrb0g6CtHq7WCh.aAXcYbVAAbRriYYqgGX7fSU.P4UfcuQKQcwdZMUJg; path=/; expires=Sun, 16-Jun-24 03:34:51 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=LxfDEGQnPUaqpftkSpGVG2R1NqnUYPFMCc18u.tntMw-1718507091746-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947932a6f557825-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:04:51,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-06-16 12:04:51,699 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:04:51,699 - DEBUG - receive_response_body.complete
+2024-06-16 12:04:51,699 - DEBUG - response_closed.started
+2024-06-16 12:04:51,699 - DEBUG - response_closed.complete
+2024-06-16 12:04:51,699 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "401 Unauthorized"
+2024-06-16 12:04:51,702 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-06-16 12:04:51,711 - DEBUG - Not retrying
+2024-06-16 12:04:51,711 - DEBUG - Re-raising status error
+2024-06-16 12:04:51,774 - DEBUG - close.started
+2024-06-16 12:04:51,775 - DEBUG - close.complete
+2024-06-16 12:13:14,006 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:13:14,115 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:13:14,116 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:13:15,417 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:13:22,098 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:13:22,277 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:13:22,358 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:13:22,491 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11009c100>
+2024-06-16 12:13:22,494 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105db9440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:13:22,530 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11009c0d0>
+2024-06-16 12:13:22,531 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:22,531 - DEBUG - send_request_headers.complete
+2024-06-16 12:13:22,531 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:13:22,531 - DEBUG - send_request_body.complete
+2024-06-16 12:13:22,531 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:22,813 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Jun 2024 03:13:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_7240eff7874286d3d07076ef039e5355'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=MNJDZlUbXmFzJ.n8dVPTxL2w3Ztd6nLLJcILfqh8tZI-1718507602-1.0.1.1-xiQ7zf8daqYJ0r9ankLNskVS9RE54DZJnaEMb.JeV._UThbSuSz_Xk_eElt7jicZNRQ77mPqUEyuLWh2L0A7aw; path=/; expires=Sun, 16-Jun-24 03:43:22 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=rNAnEU_dVLfog2YWcr63W6xHvTwLOu5HX.IyFl2lHJk-1718507602822-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89479fa41a4ae072-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:13:22,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-06-16 12:13:22,815 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:13:22,816 - DEBUG - receive_response_body.complete
+2024-06-16 12:13:22,816 - DEBUG - response_closed.started
+2024-06-16 12:13:22,816 - DEBUG - response_closed.complete
+2024-06-16 12:13:22,816 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests"
+2024-06-16 12:13:22,816 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-06-16 12:13:22,820 - DEBUG - Retrying due to status code 429
+2024-06-16 12:13:22,820 - DEBUG - 1 retry left
+2024-06-16 12:13:22,820 - INFO - Retrying request to /chat/completions in 0.924681 seconds
+2024-06-16 12:13:23,761 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:13:23,764 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:23,764 - DEBUG - send_request_headers.complete
+2024-06-16 12:13:23,764 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:13:23,764 - DEBUG - send_request_body.complete
+2024-06-16 12:13:23,764 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:23,930 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Jun 2024 03:13:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_57ae80fed66c3d39a9e68f992de98a81'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89479fabdc77e072-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:13:23,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-06-16 12:13:23,931 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:13:23,932 - DEBUG - receive_response_body.complete
+2024-06-16 12:13:23,932 - DEBUG - response_closed.started
+2024-06-16 12:13:23,932 - DEBUG - response_closed.complete
+2024-06-16 12:13:23,932 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests"
+2024-06-16 12:13:23,932 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-06-16 12:13:23,933 - DEBUG - Retrying due to status code 429
+2024-06-16 12:13:23,933 - DEBUG - 0 retries left
+2024-06-16 12:13:23,933 - INFO - Retrying request to /chat/completions in 1.655850 seconds
+2024-06-16 12:13:25,589 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:13:25,592 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:25,593 - DEBUG - send_request_headers.complete
+2024-06-16 12:13:25,593 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:13:25,593 - DEBUG - send_request_body.complete
+2024-06-16 12:13:25,593 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:13:25,777 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 16 Jun 2024 03:13:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_b42254b856b64bf294bc3d50ac8751d0'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'89479fb76b28e072-NRT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:13:25,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-06-16 12:13:25,779 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:13:25,780 - DEBUG - receive_response_body.complete
+2024-06-16 12:13:25,780 - DEBUG - response_closed.started
+2024-06-16 12:13:25,781 - DEBUG - response_closed.complete
+2024-06-16 12:13:25,782 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests"
+2024-06-16 12:13:25,782 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openai/_base_client.py", line 967, in _request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/httpx/_models.py", line 761, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-06-16 12:13:25,785 - DEBUG - Re-raising status error
+2024-06-16 12:13:25,877 - DEBUG - close.started
+2024-06-16 12:13:25,878 - DEBUG - close.complete
+2024-06-16 12:17:45,599 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:17:45,722 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:17:45,723 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:17:47,088 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:17:53,960 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:17:54,096 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:17:54,128 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:17:54,156 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107490100>
+2024-06-16 12:17:54,156 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105fc1440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:17:54,177 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1074900d0>
+2024-06-16 12:17:54,178 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:17:54,178 - DEBUG - send_request_headers.complete
+2024-06-16 12:17:54,179 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:17:54,179 - DEBUG - send_request_body.complete
+2024-06-16 12:17:54,179 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:17:55,123 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 03:17:55 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'590'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59978'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'22ms'), (b'x-request-id', b'req_d4bdf6702e4314cdf9777a8dff3654e6'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=GchDfZANjGDFWfwg3nvTSfQDOWRud0y59E.VP4qBUj8-1718507875-1.0.1.1-Zej1AegsmJWE5VniaEyJZNChSaf1wGe_ZdRdFWvyq8.6S3LjVG_LPw_paW9fRwNLnbuIJW0pFXleNuwpB6f_vw; path=/; expires=Sun, 16-Jun-24 03:47:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=J_BASf0oKD5K1hoKIbGLzOfqQ.bFTAUxN5r4shL2CeQ-1718507875010-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947a645ea903c0b-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:17:55,125 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 12:17:55,126 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:17:55,126 - DEBUG - receive_response_body.complete
+2024-06-16 12:17:55,126 - DEBUG - response_closed.started
+2024-06-16 12:17:55,126 - DEBUG - response_closed.complete
+2024-06-16 12:17:55,127 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 12:17:55,189 - DEBUG - close.started
+2024-06-16 12:17:55,190 - DEBUG - close.complete
+2024-06-16 12:19:09,546 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:19:09,657 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:19:09,658 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:19:10,927 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:19:16,399 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:19:16,543 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:19:16,586 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:19:16,642 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106efc130>
+2024-06-16 12:19:16,642 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105a2d440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:19:16,662 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106efc100>
+2024-06-16 12:19:16,662 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:19:16,662 - DEBUG - send_request_headers.complete
+2024-06-16 12:19:16,662 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:19:16,662 - DEBUG - send_request_body.complete
+2024-06-16 12:19:16,662 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:19:17,532 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 03:19:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'644'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59978'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'22ms'), (b'x-request-id', b'req_b1ce0d6b65b47f2465dfeed8af222663'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=XBhh8tWIkW_CK2I8Z8mTEg2uWDg_hiF6Cpkk2M34zv0-1718507957-1.0.1.1-ziABj8HeyuWRr8KOHrRFHc5SqF.he1cAM48p7cLuyCNWQQEj_4XMsO4oyGsCcRm..Eb.3anjS2q.J1vrLD_9Bw; path=/; expires=Sun, 16-Jun-24 03:49:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=gLUlxk.CiRD9gZDIWOg7QEzg9cfCOTiiFMq8bG5vtGo-1718507957535-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947a84969a2f635-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:19:17,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 12:19:17,535 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:19:17,535 - DEBUG - receive_response_body.complete
+2024-06-16 12:19:17,535 - DEBUG - response_closed.started
+2024-06-16 12:19:17,535 - DEBUG - response_closed.complete
+2024-06-16 12:19:17,535 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 12:19:17,578 - DEBUG - close.started
+2024-06-16 12:19:17,579 - DEBUG - close.complete
+2024-06-16 12:51:01,249 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:51:01,405 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:51:01,406 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:51:02,909 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:51:09,516 - INFO - Google Speech Recognition thinks you said: hello how are you
+2024-06-16 12:51:09,670 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'hello how are you'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:51:09,739 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:51:09,850 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1037e82e0>
+2024-06-16 12:51:09,850 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x102319440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:51:09,872 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1037e82b0>
+2024-06-16 12:51:09,873 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:51:09,873 - DEBUG - send_request_headers.complete
+2024-06-16 12:51:09,873 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:51:09,873 - DEBUG - send_request_body.complete
+2024-06-16 12:51:09,873 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:51:10,915 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 03:51:10 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'642'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59978'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'22ms'), (b'x-request-id', b'req_bf3959a2561f44316b3b80504042f630'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=.YQc1LVCXncJ5FrrUTN91TF2zp9wCOs0kRuXpeFF2aE-1718509870-1.0.1.1-rcx_vW5q7N1R0Z6Hd6ObJMANpu3Pzh_02RtBAuPNDOchnJgdR6Gn339Ude.VVCvW_4TTEl0AOJpCAm723f.bGQ; path=/; expires=Sun, 16-Jun-24 04:21:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=FPWo7x_xKsIYyltnNi5ABauEuTnLnXY8qq_2x0fW9E0-1718509870812-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947d6fedb512624-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:51:10,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 12:51:10,918 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:51:10,919 - DEBUG - receive_response_body.complete
+2024-06-16 12:51:10,919 - DEBUG - response_closed.started
+2024-06-16 12:51:10,919 - DEBUG - response_closed.complete
+2024-06-16 12:51:10,919 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 12:51:10,931 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:51:11,014 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=Hello%21+I%27m+just+a+computer+program%2C+so+I+don%27t+have+feelings%2C+but+I%27m+here+to+help+you.+How+can+I+assist+you+today%3F HTTP/1.1" 200 20865
+2024-06-16 12:51:11,016 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:51:31,284 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 1832492
+2024-06-16 12:51:48,375 - DEBUG - close.started
+2024-06-16 12:51:48,376 - DEBUG - close.complete
+2024-06-16 12:51:58,669 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:51:58,698 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:51:58,700 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:52:00,583 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:52:07,227 - INFO - Google Speech Recognition thinks you said: 22
+2024-06-16 12:52:07,440 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': '22'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:52:07,522 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:52:07,533 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x102c302e0>
+2024-06-16 12:52:07,534 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x101761440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:52:07,550 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x102c302b0>
+2024-06-16 12:52:07,550 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:52:07,551 - DEBUG - send_request_headers.complete
+2024-06-16 12:52:07,551 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:52:07,551 - DEBUG - send_request_body.complete
+2024-06-16 12:52:07,551 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:52:08,272 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 03:52:08 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'412'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59982'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'18ms'), (b'x-request-id', b'req_67965158ce828b963cdcaf746f00d153'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=OdyUN5xkNwWxvDfqag1PmDYIwP_ACqpkOQMcSNtkMkQ-1718509928-1.0.1.1-OlJSlOe_c8_SmIMMTRhS3KzICKs06yb5cif5y1dMBsUT5eFM4E.bEtsl4nx_PDv.EWuhMqSN.cBjRQAp.7SlGw; path=/; expires=Sun, 16-Jun-24 04:22:08 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=etktpASklo7YY1i8TGXtNTv7qKyZC_WAySfXAb4HA4Y-1718509928279-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947d867589daf42-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:52:08,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 12:52:08,274 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:52:08,275 - DEBUG - receive_response_body.complete
+2024-06-16 12:52:08,275 - DEBUG - response_closed.started
+2024-06-16 12:52:08,275 - DEBUG - response_closed.complete
+2024-06-16 12:52:08,276 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 12:52:08,285 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:52:08,362 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=I%27m+sorry%2C+I%27m+not+sure+what+you%27re+referring+to+with+%2222.%22+Can+you+please+provide+more+context+or+clarify+your+question%3F HTTP/1.1" 200 20925
+2024-06-16 12:52:08,364 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:52:27,302 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 1757228
+2024-06-16 12:52:50,233 - DEBUG - close.started
+2024-06-16 12:52:50,234 - DEBUG - close.complete
+2024-06-16 12:52:59,054 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:52:59,074 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:52:59,077 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:53:00,478 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:53:08,236 - ERROR - Google 3Speech Recognition could not understand audio
+2024-06-16 12:53:08,373 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:53:08,444 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=No+input+to+respond+to. HTTP/1.1" 200 4558
+2024-06-16 12:53:08,450 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:53:12,280 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 350252
+2024-06-16 12:56:05,074 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:56:05,189 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 12:56:05,191 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:56:06,771 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 12:56:13,665 - INFO - Google Speech Recognition thinks you said: こんにちは
+2024-06-16 12:56:13,815 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 12:56:13,931 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 12:56:13,962 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10789c370>
+2024-06-16 12:56:13,963 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105661440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 12:56:13,984 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10789c340>
+2024-06-16 12:56:13,985 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 12:56:13,985 - DEBUG - send_request_headers.complete
+2024-06-16 12:56:13,985 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 12:56:13,985 - DEBUG - send_request_body.complete
+2024-06-16 12:56:13,985 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 12:56:14,956 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 03:56:14 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'674'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59979'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'21ms'), (b'x-request-id', b'req_1324df334d0b914af2874e1711319a76'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=9Bo5FhoIC5606ajGJM5HR8fBd0oo750XTmRy8LN1KXw-1718510174-1.0.1.1-EOcp0Zuf7LMJO4WgU2ljgE6QXC0Nhiqe6as2m8NtWjQkrAdosRQjr9Ykgt5xhq5x4EG_c1WwdXGSggmscnEzYw; path=/; expires=Sun, 16-Jun-24 04:26:14 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=jDKzO6Q3HU7O641E8VY1QrjkRYxYx3JOliWFvUXpyPY-1718510174974-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947de6b98431f3f-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 12:56:14,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 12:56:14,958 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 12:56:14,958 - DEBUG - receive_response_body.complete
+2024-06-16 12:56:14,958 - DEBUG - response_closed.started
+2024-06-16 12:56:14,958 - DEBUG - response_closed.complete
+2024-06-16 12:56:14,958 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 12:56:14,964 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:56:15,021 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81%E3%81%8A%E5%85%83%E6%B0%97%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%80%81%E4%BD%95%E3%81%A7%E3%82%82%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%81%AD%E3%80%82 HTTP/1.1" 200 6724
+2024-06-16 12:56:15,023 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 12:56:19,736 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 385580
+2024-06-16 12:56:27,967 - DEBUG - close.started
+2024-06-16 12:56:27,968 - DEBUG - close.complete
+2024-06-16 13:04:23,590 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:04:23,735 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 13:04:23,737 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:04:25,153 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 13:04:31,070 - INFO - Google Speech Recognition thinks you said: こんにちは
+2024-06-16 13:09:14,600 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:09:14,724 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-16 13:09:14,726 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:09:16,081 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-16 13:09:21,532 - INFO - Google Speech Recognition thinks you said: こんにちは
+2024-06-16 13:09:21,678 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-16 13:09:21,723 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-16 13:09:21,820 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103c9c340>
+2024-06-16 13:09:21,821 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x101b61440> server_hostname='api.openai.com' timeout=5.0
+2024-06-16 13:09:21,845 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103c9c310>
+2024-06-16 13:09:21,845 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-16 13:09:21,845 - DEBUG - send_request_headers.complete
+2024-06-16 13:09:21,845 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-16 13:09:21,846 - DEBUG - send_request_body.complete
+2024-06-16 13:09:21,846 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 13:09:22,849 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 16 Jun 2024 04:09:22 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'592'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59979'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'21ms'), (b'x-request-id', b'req_f3e9dae0adbc49ee9e255366f3bd74fa'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=TEtMQksMtY2o7CYvbJtQss4HTHYDYae9_Byd6w8aqoI-1718510962-1.0.1.1-0HG9ZMIWEnSObGeuiFmv4qXJtrCq2MIUX4NDrg8rQlJCZBAP3kzRJkBxcfiJSkbNCihyaYS0b8PhxJH4t33bSQ; path=/; expires=Sun, 16-Jun-24 04:39:22 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=4MaVVM2Q6XW83y0cAKu0T72fF_Jms5DdESRmdUSaYYg-1718510962750-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8947f1a7baef5bfc-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-16 13:09:22,850 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-16 13:09:22,850 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-16 13:09:22,850 - DEBUG - receive_response_body.complete
+2024-06-16 13:09:22,850 - DEBUG - response_closed.started
+2024-06-16 13:09:22,850 - DEBUG - response_closed.complete
+2024-06-16 13:09:22,850 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-16 13:09:22,855 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:09:22,891 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81%E4%BD%95%E3%81%8B%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 4161
+2024-06-16 13:09:22,893 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-16 13:09:25,374 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 222252
+2024-06-16 13:09:30,234 - DEBUG - close.started
+2024-06-16 13:09:30,235 - DEBUG - close.complete
