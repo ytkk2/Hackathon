@@ -1,1 +1,4 @@
 .env
+.audio.wav
+.app.log
+.response_audio.wav
