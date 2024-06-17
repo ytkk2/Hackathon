@@ -1,4 +1,5 @@
 import logging
+import os
 
 import requests
 import simpleaudio as sa
@@ -6,14 +7,18 @@ import speech_recognition as sr
 from openai import OpenAI
 
 # OpenAI APIキーの設定
-client= OpenAI(api_key='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')
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
+
 # ログの基本設定
 logging.basicConfig(
-    level=logging.DEBUG, filename='app.log', format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.DEBUG,
+    filename="app.log",
+    format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
 
-# No1
+# main.py <-> Voice Vox
 class VoiceSynthesizer:
     def __init__(self, base_url, speaker_id=1):
         self.base_url = base_url
@@ -68,7 +73,7 @@ player = AudioPlayer(filename)
 player.play_audio()
 
 
-# No2
+# mian.py <-> Speech Recognition
 class SpeechToText:
     def __init__(self):
         self.recognizer = sr.Recognizer()
@@ -92,17 +97,29 @@ class SpeechToText:
                 return None
 
 
+# main.py <-> ChatGPT
 class ChatGPT:
     def __init__(self, api_key):
         self.model = "gpt-3.5-turbo"
+        self.session_history = []  # 会話履歴を保持するリスト
 
     def get_response(self, text):
         if text:
+            # 会話履歴を更新
+            self.session_history.append({"role": "user", "content": text})
             response = client.chat.completions.create(
-                model=self.model, messages=[{"role": "user", "content": text}]
+                model=self.model, messages=self.session_history
+            )
+            # レスポンスを履歴に追加
+            self.session_history.append(
+                {
+                    "role": "assistant",
+                    "content": response.choices[0].message.content.strip(),
+                }
             )
             return response.choices[0].message.content.strip()
         else:
+            logging.error("No input to respond to")
             return "No input to respond to."
 
 
@@ -110,16 +127,22 @@ if __name__ == "__main__":
     speech_to_text = SpeechToText()
     chat_gpt = ChatGPT(api_key="your_openai_api_key")
 
-    text = speech_to_text.recognize_speech_from_mic()
-    response = chat_gpt.get_response(text)
-    print("ChatGPT's response:", response)
+    try:
+        while True:  # 無限ループでユーザー入力を続ける
+            text = speech_to_text.recognize_speech_from_mic()
+            if text is None:
+                print("No speech detected, try again...")
+                continue  # 音声が検出されなかった場合はスキップ
+            response = chat_gpt.get_response(text)
+            print("ChatGPT's response:", response)
 
-    # ChatGPTの応答をVOICEVOXで音声合成する
-    synthesizer = VoiceSynthesizer(base_url)
-    response_audio_content = synthesizer.synthesize_text_to_audio(response)
-    response_filename = "response_audio.wav"
-    synthesizer.save_audio_to_file(response_audio_content, response_filename)
+            # ChatGPTの応答を音声に変換して再生
+            synthesizer = VoiceSynthesizer(base_url)
+            response_audio_content = synthesizer.synthesize_text_to_audio(response)
+            response_filename = "response_audio.wav"
+            synthesizer.save_audio_to_file(response_audio_content, response_filename)
+            player = AudioPlayer(response_filename)
+            player.play_audio()
 
-    # 生成された音声ファイルを再生
-    player = AudioPlayer(response_filename)
-    player.play_audio()
+    except KeyboardInterrupt:
+        print("Exiting the program...")

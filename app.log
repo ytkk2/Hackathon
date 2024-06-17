@@ -560,3 +560,109 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2024-06-16 13:09:25,374 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 222252
 2024-06-16 13:09:30,234 - DEBUG - close.started
 2024-06-16 13:09:30,235 - DEBUG - close.complete
+2024-06-17 18:07:35,976 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:09:20,962 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:10:30,389 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:10:30,443 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-17 18:10:30,445 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:10:32,249 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-17 18:10:37,966 - INFO - Google Speech Recognition thinks you said: こんにちは
+2024-06-17 18:10:38,174 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-17 18:10:38,267 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-17 18:10:38,310 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106ef44c0>
+2024-06-17 18:10:38,311 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105a254c0> server_hostname='api.openai.com' timeout=5.0
+2024-06-17 18:10:38,331 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106ef4490>
+2024-06-17 18:10:38,331 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-17 18:10:38,332 - DEBUG - send_request_headers.complete
+2024-06-17 18:10:38,332 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-17 18:10:38,332 - DEBUG - send_request_body.complete
+2024-06-17 18:10:38,333 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-17 18:10:39,913 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 17 Jun 2024 09:10:39 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'1235'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59979'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'21ms'), (b'x-request-id', b'req_805d79025edceca9525a3c7f4ad69cf4'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=3RZzxRa7DetBe01WxWzBUQA88CDWD5W7a1RVmWnL9ZA-1718615439-1.0.1.1-4moIjskM_VzgpYuxLo1fuOH_GPUwhbPlo8OJZETwWUvcCH5QO3BKHvNxeihEPhMYV7KBSrdeRicalhsUI6.q5g; path=/; expires=Mon, 17-Jun-24 09:40:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=r0EjNKAd22_04Ie_IkS0xXs2L7WfiTwT60QPv3UetwQ-1718615439969-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8951e85a191825f5-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-17 18:10:39,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-17 18:10:39,915 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-17 18:10:39,916 - DEBUG - receive_response_body.complete
+2024-06-17 18:10:39,916 - DEBUG - response_closed.started
+2024-06-17 18:10:39,916 - DEBUG - response_closed.complete
+2024-06-17 18:10:39,916 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-17 18:10:39,926 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:10:39,998 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81%E3%81%84%E3%81%8B%E3%81%8C%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F%E7%A7%81%E3%81%AF%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%82%92%E3%81%99%E3%82%8B%E6%BA%96%E5%82%99%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%E4%BD%95%E3%81%8B%E8%B3%AA%E5%95%8F%E3%82%84%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%80%81%E9%81%A0%E6%85%AE%E3%81%AA%E3%81%8F%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%81%AD%E3%80%82 HTTP/1.1" 200 13246
+2024-06-17 18:10:40,000 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:10:47,173 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 693292
+2024-06-17 18:11:01,833 - DEBUG - close.started
+2024-06-17 18:11:01,833 - DEBUG - close.complete
+2024-06-17 18:19:26,602 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:19:26,730 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E4%BD%95%E3%81%8B%E3%81%94%E7%94%A8%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F HTTP/1.1" 200 1618
+2024-06-17 18:19:26,732 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:19:28,487 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 90156
+2024-06-17 18:19:33,648 - INFO - Google Speech Recognition thinks you said: こんにちは
+2024-06-17 18:19:33,815 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-17 18:19:33,852 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-17 18:19:33,892 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110a8c970>
+2024-06-17 18:19:33,892 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105d954c0> server_hostname='api.openai.com' timeout=5.0
+2024-06-17 18:19:33,914 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110a8c940>
+2024-06-17 18:19:33,914 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-17 18:19:33,914 - DEBUG - send_request_headers.complete
+2024-06-17 18:19:33,914 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-17 18:19:33,914 - DEBUG - send_request_body.complete
+2024-06-17 18:19:33,914 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-17 18:19:36,793 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 17 Jun 2024 09:19:36 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'2407'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59979'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'21ms'), (b'x-request-id', b'req_a8e7c04cbd004c70078c4758715909ce'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Uj9BnHo2HiDZmGUvnwhvU0rN7eDjXzXSG..lawLsZmU-1718615976-1.0.1.1-zRut4TkwLSvJPIhppEmXK3nrHg6fG0eX7f9AvOHslQtIfB27.uIAdcJXiGSCQjb4uZuCUa4.0N6ZR6meKs7Tdw; path=/; expires=Mon, 17-Jun-24 09:49:36 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=MBDxXOBP.nlLj7Am2ZUGnrZVpqRv8qYE3ekjiGCz6c4-1718615976774-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8951f56d88922627-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-17 18:19:36,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-17 18:19:36,796 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-17 18:19:36,797 - DEBUG - receive_response_body.complete
+2024-06-17 18:19:36,797 - DEBUG - response_closed.started
+2024-06-17 18:19:36,797 - DEBUG - response_closed.complete
+2024-06-17 18:19:36,797 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-17 18:19:36,822 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:19:36,902 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%EF%BC%81%E3%81%8A%E5%9B%B0%E3%82%8A%E3%81%94%E3%81%A8%E3%82%84%E8%B3%AA%E5%95%8F%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%A9%E3%81%86%E3%81%9E%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%E7%A7%81%E3%81%AB%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%A7%E3%82%82%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%E3%80%82 HTTP/1.1" 200 9175
+2024-06-17 18:19:36,904 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:19:43,438 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 459308
+2024-06-17 18:19:57,354 - INFO - Google Speech Recognition thinks you said: ありがとう
+2024-06-17 18:19:57,515 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}, {'role': 'assistant', 'content': 'こんにちは！お困りごとや質問があればどうぞお知らせください。私にできることは何でもお手伝いいたします。'}, {'role': 'user', 'content': 'ありがとう'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-17 18:19:57,517 - DEBUG - close.started
+2024-06-17 18:19:57,517 - DEBUG - close.complete
+2024-06-17 18:19:57,517 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-17 18:19:57,526 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110a8f520>
+2024-06-17 18:19:57,527 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105d954c0> server_hostname='api.openai.com' timeout=5.0
+2024-06-17 18:19:57,544 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110a8f4f0>
+2024-06-17 18:19:57,545 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-17 18:19:57,545 - DEBUG - send_request_headers.complete
+2024-06-17 18:19:57,545 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-17 18:19:57,545 - DEBUG - send_request_body.complete
+2024-06-17 18:19:57,545 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-17 18:19:59,219 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 17 Jun 2024 09:19:59 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'1321'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59935'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'65ms'), (b'x-request-id', b'req_b8614587164b3f4966d0286d84e85e4c'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8951f6014a5e0af4-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-17 18:19:59,221 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-17 18:19:59,222 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-17 18:19:59,222 - DEBUG - receive_response_body.complete
+2024-06-17 18:19:59,223 - DEBUG - response_closed.started
+2024-06-17 18:19:59,223 - DEBUG - response_closed.complete
+2024-06-17 18:19:59,223 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-17 18:19:59,231 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:19:59,292 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E3%81%A9%E3%81%86%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%97%E3%81%A6%E3%80%82%E3%81%8A%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A6%E3%81%A6%E5%AC%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%80%82%E4%BD%95%E3%81%8B%E3%81%8A%E5%9B%B0%E3%82%8A%E3%81%94%E3%81%A8%E3%82%84%E7%96%91%E5%95%8F%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%84%E3%81%A4%E3%81%A7%E3%82%82%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%81%AD%E3%80%82%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%81%97%E3%81%BE%E3%81%99%E3%80%82 HTTP/1.1" 200 12159
+2024-06-17 18:19:59,293 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:20:05,503 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 603180
+2024-06-17 18:20:22,487 - INFO - Google Speech Recognition thinks you said: 日本で一番高い山は
+2024-06-17 18:20:22,640 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'こんにちは'}, {'role': 'assistant', 'content': 'こんにちは！お困りごとや質問があればどうぞお知らせください。私にできることは何でもお手伝いいたします。'}, {'role': 'user', 'content': 'ありがとう'}, {'role': 'assistant', 'content': 'どういたしまして。お役に立てて嬉しいです。何かお困りごとや疑問があればいつでもお知らせくださいね。お手伝いできることがあればお手伝いします。'}, {'role': 'user', 'content': '日本で一番高い山は'}], 'model': 'gpt-3.5-turbo'}}
+2024-06-17 18:20:22,654 - DEBUG - close.started
+2024-06-17 18:20:22,656 - DEBUG - close.complete
+2024-06-17 18:20:22,656 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-06-17 18:20:22,672 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110ad6fe0>
+2024-06-17 18:20:22,672 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105d954c0> server_hostname='api.openai.com' timeout=5.0
+2024-06-17 18:20:22,687 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x110ad6fb0>
+2024-06-17 18:20:22,687 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-06-17 18:20:22,692 - DEBUG - send_request_headers.complete
+2024-06-17 18:20:22,692 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-06-17 18:20:22,692 - DEBUG - send_request_body.complete
+2024-06-17 18:20:22,692 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-06-17 18:20:25,356 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 17 Jun 2024 09:20:25 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'openai-organization', b'user-njhqg7plinaawjeall2rq1go'), (b'openai-processing-ms', b'2394'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59874'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'126ms'), (b'x-request-id', b'req_18330a262b4deca0d0329713e78ccdbb'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8951f69e498b2053-NRT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-06-17 18:20:25,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-17 18:20:25,358 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-06-17 18:20:25,358 - DEBUG - receive_response_body.complete
+2024-06-17 18:20:25,358 - DEBUG - response_closed.started
+2024-06-17 18:20:25,358 - DEBUG - response_closed.complete
+2024-06-17 18:20:25,358 - DEBUG - HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+2024-06-17 18:20:25,362 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:20:25,458 - DEBUG - http://127.0.0.1:50021 "POST /audio_query?speaker=1&text=%E6%97%A5%E6%9C%AC%E3%81%A7%E4%B8%80%E7%95%AA%E9%AB%98%E3%81%84%E5%B1%B1%E3%81%AF%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%A7%E3%81%99%E3%80%82%E6%A8%99%E9%AB%98%E3%81%AF3%2C776%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E3%81%A7%E3%80%81%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6%E7%9F%A5%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%AF%E6%97%A5%E6%9C%AC%E3%81%AE%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92%E3%81%AB%E6%8C%87%E5%AE%9A%E3%81%95%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A%E3%80%81%E5%A4%9A%E3%81%8F%E3%81%AE%E7%99%BB%E5%B1%B1%E8%80%85%E3%82%84%E8%A6%B3%E5%85%89%E5%AE%A2%E3%81%AB%E8%A6%AA%E3%81%97%E3%81%BE%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%AF%E6%97%A5%E6%9C%AC%E3%81%AE%E6%96%87%E5%8C%96%E3%82%84%E9%A2%A8%E6%99%AF%E3%81%AB%E6%B7%B1%E3%81%8F%E6%A0%B9%E4%BB%98%E3%81%84%E3%81%A6%E3%81%8A%E3%82%8A%E3%80%81%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6%E7%89%B9%E5%88%A5%E3%81%AA%E5%AD%98%E5%9C%A8%E3%81%A7%E3%81%99%E3%80%82 HTTP/1.1" 200 27197
+2024-06-17 18:20:25,460 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:50021
+2024-06-17 18:20:46,088 - DEBUG - http://127.0.0.1:50021 "POST /synthesis?speaker=1 HTTP/1.1" 200 1378860
+2024-06-17 18:20:47,953 - DEBUG - close.started
+2024-06-17 18:20:47,958 - DEBUG - close.complete
