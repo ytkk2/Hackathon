@@ -12,5 +12,6 @@
 
 ## 技術スタック
 - Voice Vox
+- Simpleaudio
 - Speech Recognition
 - ChatGPT API
