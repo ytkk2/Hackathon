@@ -1,4 +1,4 @@
-# Speech_Dialog_System_using_ChatGPT
+# Speech Dialog System using ChatGPT
 
 ## 概要
 `Speech_Dialog_System_using_ChatGPT` は、Chat GPTを使用した音声対話アプリです。このアプリケーションは、ユーザーの声の問いかけに対して自動で応答することができます。初めに、Voice Voxを使って「何かご用ですか？」と尋ね、その後、ユーザーの音声入力を受け付けます。
